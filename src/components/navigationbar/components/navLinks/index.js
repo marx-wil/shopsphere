@@ -27,6 +27,7 @@ const NavigationLinks = () => {
       variants={containerVariants}
       initial="hidden"
       animate="show"
+      display={{ base: "none", lg: "flex" }}
     >
       {ClientRoutes.map((item) => (
         <motion.div
