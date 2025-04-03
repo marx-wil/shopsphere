@@ -1,6 +1,7 @@
 import { Flex, Box } from "@chakra-ui/react";
 import BrandLogo from "./components/brand";
 import NavigationLinks from "./components/navLinks";
+import NavActionButtons from "./components/actionButtons";
 
 const NavigationBar = () => {
   return (
@@ -13,9 +14,7 @@ const NavigationBar = () => {
     >
       <BrandLogo />
       <NavigationLinks />
-      <Box display="flex" alignItems="center">
-        login
-      </Box>
+      <NavActionButtons />
     </Flex>
   );
 };
