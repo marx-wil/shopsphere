@@ -10,7 +10,6 @@ const Layout = (Component) => {
 
     return (
       <AnimatePresence mode="wait">
-        {" "}
         {/* Handles animations when the theme changes */}
         <motion.div
           key={colorMode} // Ensures re-animation when theme mode changes
@@ -27,9 +26,8 @@ const Layout = (Component) => {
             transition="background 0.4s ease-in-out, color 0.4s ease-in-out" // Smooth transition for color changes
           >
             <NavigationBar /> {/* Displays the navigation bar at the top */}
-            <Component {...props} />{" "}
-            {/* Renders the page component dynamically */}
-            <Text>Footer here</Text> {/* Simple footer text */}
+            <Component {...props} /> {/* Renders the page component dynamically */}
+            <Text>{/* Simple footer text */}Footer here</Text> {/* Correct comment positioning inside Text component */}
             <FloatingColorMode /> {/* Floating button to switch theme */}
           </Box>
         </motion.div>
