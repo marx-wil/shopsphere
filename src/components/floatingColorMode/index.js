@@ -25,8 +25,7 @@ const FloatingColorMode = () => {
       onClick={toggleColorMode} // Toggles light/dark mode
     >
       <AnimatePresence mode="wait" initial={false}>
-        {" "}
-        // Ensures smooth icon transition
+        {/* Ensures smooth icon transition */}
         <motion.div
           key={colorMode}
           initial={{ opacity: 0, y: -10 }} // Icon fades in from above
