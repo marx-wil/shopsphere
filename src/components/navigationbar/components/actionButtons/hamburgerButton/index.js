@@ -5,15 +5,12 @@ import {
   CloseButton,
   VStack,
   Text,
-  Flex,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { FaBars, FaUser } from "react-icons/fa6";
+import { FaBars } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion";
 import { NavLink, useLocation } from "react-router-dom";
 import clientRoutes from "../../../../../routes/client";
-import UserButtonNav from "../userButton";
-import CartButtonNav from "../cartButton";
 const MotionIconButton = motion(IconButton);
 const MotionBox = motion(Box);
 const MotionText = motion(Text);
