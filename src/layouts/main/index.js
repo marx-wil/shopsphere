@@ -1,7 +1,8 @@
-import { Box, Text, useColorMode } from "@chakra-ui/react"; // Chakra UI for styling and theming
+import { Box, useColorMode } from "@chakra-ui/react"; // Chakra UI for styling and theming
 import { motion, AnimatePresence } from "framer-motion"; // Framer Motion for animations
 import NavigationBar from "../../components/navigationbar"; // Navigation bar component
 import FloatingColorMode from "../../components/floatingColorMode"; // Floating button to toggle theme
+import Footer from "../../components/footer";
 
 // Higher-order component to wrap pages with a default layout
 const Layout = (Component) => {
@@ -26,8 +27,10 @@ const Layout = (Component) => {
             transition="background 0.4s ease-in-out, color 0.4s ease-in-out" // Smooth transition for color changes
           >
             <NavigationBar /> {/* Displays the navigation bar at the top */}
-            <Component {...props} /> {/* Renders the page component dynamically */}
-            <Text>{/* Simple footer text */}Footer here</Text> {/* Correct comment positioning inside Text component */}
+            <Component {...props} />{" "}
+            {/* Renders the page component dynamically */}
+            {/* Correct comment positioning inside Text component */}
+            <Footer /> {/* Displays the footer at the bottom */}
             <FloatingColorMode /> {/* Floating button to switch theme */}
           </Box>
         </motion.div>
