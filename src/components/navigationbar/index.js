@@ -1,4 +1,4 @@
-import { Flex, Box } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import BrandLogo from "./components/brand";
 import NavigationLinks from "./components/navLinks";
 import NavActionButtons from "./components/actionButtons";
