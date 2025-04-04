@@ -1,8 +1,10 @@
+import HeroHeaderSection from "../../../components/heroHeaderSection";
+import { Flex } from "@chakra-ui/react";
 const ClientDefaultLayout = () => {
   return (
-    <div>
-      <h1>Default Layout</h1>
-    </div>
+    <Flex>
+      <HeroHeaderSection />
+    </Flex>
   );
 };
 
