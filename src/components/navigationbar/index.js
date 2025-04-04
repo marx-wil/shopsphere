@@ -9,7 +9,7 @@ const NavigationBar = () => {
       boxShadow={"lg"}
       minWidth={"max-content"}
       justify={"space-between"}
-      px={10}
+      px={{ base: 4, md: 10 }}
       py={5}
     >
       <BrandLogo />
