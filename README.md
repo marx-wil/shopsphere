@@ -27,12 +27,15 @@ Built with **[Create React App (CRA)](https://create-react-app.dev/)** and power
    cd shopsphere
 
 2. **Install dependencies**
+   ```bash
     npm install
 
 3. **Run the development server**
+   ```bash
     npm start
 
 4. **Build for production**
+   ```bash
     npm run build
 
 ## 📁 Project Structure
