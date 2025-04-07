@@ -21,4 +21,4 @@ This software is provided **"as is"**, without warranty of any kind, express or 
 
 ---
 
-For licensing inquiries, please contact: _[your contact email or GitHub profile]_
+For licensing inquiries, please contact: _[wilmarx.cayabyab@gmail.com]_
