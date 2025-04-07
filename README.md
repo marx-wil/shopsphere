@@ -9,49 +9,57 @@ Discover a curated collection of plants to brighten your home and soul — with 
 
 Built with **[Create React App (CRA)](https://create-react-app.dev/)** and powered by a modern UI ecosystem:
 
-- ⚛️ **React 19** – Component-based frontend library  
-- 💅 **Chakra UI** – Beautiful, accessible component library  
-- 🎥 **Framer Motion** – For seamless animations  
-- 🧭 **React Router DOM** – For client-side routing  
-- 🎨 **Sass** – For custom styling  
-- 🎡 **React Slick & Slick Carousel** – For responsive carousels  
-- 🧪 **React Testing Library** – For testing components  
+- ⚛️ **React 19** – Component-based frontend library
+- 💅 **Chakra UI** – Beautiful, accessible component library
+- 🎥 **Framer Motion** – For seamless animations
+- 🧭 **React Router DOM** – For client-side routing
+- 🎨 **Sass** – For custom styling
+- 🎡 **React Slick & Slick Carousel** – For responsive carousels
+- 🧪 **React Testing Library** – For testing components
 
 ---
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/your-username/shopsphere.git
    cd shopsphere
 
+   ```
+
 2. **Install dependencies**
+
    ```bash
     npm install
 
+   ```
+
 3. **Run the development server**
+
    ```bash
     npm start
+
+   ```
 
 4. **Build for production**
    ```bash
     npm run build
+   ```
 
 ## 📁 Project Structure
-   ```bash
-   
+
 shopsphere/
 ├── public/
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   └── App.js
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ ├── styles/
+│ └── App.js
 ├── package.json
 └── README.md
-
 
 ## Available Scripts
 
@@ -84,7 +92,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 📜 License 
+## 📜 License
 
 ### Custom Public View-Only License
 
