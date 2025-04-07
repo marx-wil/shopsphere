@@ -26,7 +26,8 @@ const Feature = ({ text, icon, iconBg }) => {
             >
                 {icon}
             </Flex>
-            <Text fontWeight={600}>{text}</Text>
+            <Text fontWeight={600}
+                className='poppins-regular'>{text}</Text>
         </Stack>
     );
 };
