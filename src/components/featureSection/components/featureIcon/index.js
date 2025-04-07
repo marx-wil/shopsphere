@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { FaHandHoldingHeart, FaLeaf, FaShip } from "react-icons/fa6";
 const Feature = ({ text, icon, iconBg }) => {
+    const textColor = useColorModeValue("#13181D", "#FAF8F7")
     return (
         <Stack direction={"row"} align={"center"}>
             <Flex
@@ -23,6 +24,9 @@ const Feature = ({ text, icon, iconBg }) => {
                 {icon}
             </Flex>
             <Text fontWeight={600}
+                color={textColor}
+                opacity={0.8}
+                textTransform={"uppercase"}
                 className='poppins-regular'>{text}</Text>
         </Stack>
     );
