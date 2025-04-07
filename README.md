@@ -39,7 +39,8 @@ Built with **[Create React App (CRA)](https://create-react-app.dev/)** and power
     npm run build
 
 ## 📁 Project Structure
-
+   ```bash
+   
 shopsphere/
 ├── public/
 ├── src/
@@ -50,6 +51,7 @@ shopsphere/
 │   └── App.js
 ├── package.json
 └── README.md
+
 
 ## Available Scripts
 
