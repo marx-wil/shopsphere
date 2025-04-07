@@ -33,14 +33,12 @@ Built with **[Create React App (CRA)](https://create-react-app.dev/)** and power
 
    ```bash
     npm install
-
    ```
 
 3. **Run the development server**
 
    ```bash
     npm start
-
    ```
 
 4. **Build for production**
@@ -49,7 +47,7 @@ Built with **[Create React App (CRA)](https://create-react-app.dev/)** and power
    ```
 
 ## 📁 Project Structure
-
+   ```bash
 shopsphere/
 ├── public/
 ├── src/
@@ -60,6 +58,7 @@ shopsphere/
 │ └── App.js
 ├── package.json
 └── README.md
+   ```
 
 ## Available Scripts
 
