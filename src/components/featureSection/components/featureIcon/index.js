@@ -8,10 +8,6 @@ import {
     Icon,
     useColorModeValue,
 } from "@chakra-ui/react";
-import {
-    IoLogoBitcoin,
-    IoSearchSharp,
-} from "react-icons/io5";
 import { FaHandHoldingHeart, FaLeaf, FaShip } from "react-icons/fa6";
 const Feature = ({ text, icon, iconBg }) => {
     return (
