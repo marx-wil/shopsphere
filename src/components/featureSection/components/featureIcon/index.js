@@ -12,7 +12,7 @@ import {
     IoLogoBitcoin,
     IoSearchSharp,
 } from "react-icons/io5";
-import { FaLeaf } from "react-icons/fa6";
+import { FaHandHoldingHeart, FaLeaf, FaShip } from "react-icons/fa6";
 const Feature = ({ text, icon, iconBg }) => {
     return (
         <Stack direction={"row"} align={"center"}>
@@ -47,12 +47,12 @@ const FeatureSectionIcon = () => {
                 text={"Curated Plants"}
             />
             <Feature
-                icon={<Icon as={IoLogoBitcoin} color={"green.500"} w={5} h={5} />}
+                icon={<Icon as={FaHandHoldingHeart} color={"green.500"} w={5} h={5} />}
                 iconBg={useColorModeValue("green.100", "green.900")}
                 text={"Expert Care"}
             />
             <Feature
-                icon={<Icon as={IoSearchSharp} color={"#E5CFAA"} w={5} h={5} />}
+                icon={<Icon as={FaShip} color={"#E5CFAA"} w={5} h={5} />}
                 iconBg={useColorModeValue("#988A71", "#988A71")}
                 text={"Sustainable Shipping"}
             />
