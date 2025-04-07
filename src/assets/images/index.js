@@ -1,3 +1,3 @@
 import PlantInAPot from "./plant.png";
-
-export { PlantInAPot };
+import ManPlant from "./man+plant.jpg"
+export { PlantInAPot, ManPlant };
