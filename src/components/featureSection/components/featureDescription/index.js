@@ -13,11 +13,14 @@ const FeatureSectionDescription = () => {
                 p={2}
                 alignSelf={"flex-start"}
                 rounded={"md"}
+                className='poppins-regular'
             >
                 Our Journey.
             </Text>
-            <Heading>Your garden.</Heading>
-            <Text color={"gray.500"} fontSize={"lg"}>
+            <Heading
+                className='poppins-regular'> Your garden.</Heading>
+            <Text color={"gray.500"} fontSize={"lg"} 
+                className='poppins-regular'>
                 At ShopSphere, we believe that every plant has a story, just like
                 every home. Our passion for nature and sustainability drives us to
                 bring the beauty of the outdoors into your living space. From humble
