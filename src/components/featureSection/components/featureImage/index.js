@@ -5,7 +5,7 @@ const FeatureSectionImage = () => {
   return (
     <Flex>
       <Box
-        width={"lg"} // set your desired image size
+        width={"lg"} 
         height={"lg"}
         backgroundImage={`url(${ManPlant})`}
         backgroundSize="cover"
