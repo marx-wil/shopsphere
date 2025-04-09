@@ -1,6 +1,6 @@
 import {
     ProductListingHeroImg,
-    MainHeroImage,
+    ProductListingHeroImg2,
 } from "../../assets/hero/index";
 import {
     Flex,
@@ -87,7 +87,7 @@ const ProductListingHero = () => {
                                 zIndex: -1,
                             }}
                         >
-                            Grow Your Green Thumb
+                            Find your perfect plant
                         </Text>
                         <br />
                         <Text
@@ -96,13 +96,11 @@ const ProductListingHero = () => {
                             className="poppins-bold"
                             textTransform={"uppercase"}
                         >
-                            with ShopSphere
+                            Explore Our Handpicked Collection
                         </Text>
                     </Heading>
                     <Text color={subHeaderTextColor} className={"poppins-regular"}>
-                        Bringing nature to your doorstep. Discover a curated collection of
-                        plants to brighten your home and soul, with easy shopping and expert
-                        care tips.
+                        From lush indoor greens to low-maintenance succulents, discover the right plant for every space and lifestyle. Filter by light, size, care level, and more.
                     </Text>
                     <Stack
                         spacing={{ base: 4, sm: 6 }}
@@ -164,7 +162,7 @@ const ProductListingHero = () => {
                             align={"center"}
                             w={"100%"}
                             h={"100%"}
-                            src={MainHeroImage}
+                            src={ProductListingHeroImg2}
                         />
                     </Box>
                 </Flex>
