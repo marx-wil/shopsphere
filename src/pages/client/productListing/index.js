@@ -1,10 +1,11 @@
+import ProductListingHero from "../../../components/productListingHero";
+import { Box } from "@chakra-ui/react";
 const ClientProductListing = () => {
-    return (
-      <div>
-        <h1>Product Listing Layout</h1>
-      </div>
-    );
-  };
-  
-  export default ClientProductListing;
-  
+  return (
+    <Box>
+      <ProductListingHero />
+    </Box>
+  );
+};
+
+export default ClientProductListing;
