@@ -120,15 +120,6 @@ const ProductListingHero = () => {
                         >
                             Browse
                         </Button>
-                        {/* <Button
-              rounded={"full"}
-              size={"lg"}
-              fontWeight={"normal"}
-              px={6}
-              className="poppins-regular"
-            >
-              About
-            </Button> */}
                     </Stack>
                 </Stack>
                 <Flex
