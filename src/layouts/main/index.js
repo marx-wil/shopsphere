@@ -25,6 +25,7 @@ const Layout = (Component) => {
             color={colorMode === "light" ? "black" : "white"} // Text color changes with theme
             minH="100vh" // Ensures the layout covers the full viewport height
             transition="background 0.4s ease-in-out, color 0.4s ease-in-out" // Smooth transition for color changes
+            overflow={"hidden"}
           >
             <NavigationBar /> {/* Displays the navigation bar at the top */}
             <Component {...props} />{" "}
