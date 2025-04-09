@@ -14,9 +14,10 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 
-
+import { useNavigate } from "react-router-dom";
 
 const Blob = (props) => {
+
   return (
     <Icon
       width={"100%"}
@@ -35,6 +36,7 @@ const Blob = (props) => {
   );
 };
 const HeroHeaderSection = () => {
+  const navigate = useNavigate();
   const overlayBg = useColorModeValue(
     "rgba(247, 248, 250,.4)",
     "rgba(39, 39, 39,.5)"
@@ -117,6 +119,7 @@ const HeroHeaderSection = () => {
               _hover={{ background: "#56B280" }}
               className="poppins-regular"
               color={"#fff"}
+              onClick={() => navigate("/product-listing")}
             >
               Browse
             </Button>
