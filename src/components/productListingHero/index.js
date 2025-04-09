@@ -1,6 +1,6 @@
 import {
+    ProductListingHeroImg,
     MainHeroImage,
-    WhiteWoodBackgroundPlants,
 } from "../../assets/hero/index";
 import {
     Flex,
@@ -47,7 +47,7 @@ const ProductListingHero = () => {
     return (
         <Flex
             w={"full"}
-            backgroundImage={WhiteWoodBackgroundPlants}
+            backgroundImage={ProductListingHeroImg}
             bgSize={"cover"}
             bgPosition={"center center"}
             backdropFilter={"blur(10px)"}
