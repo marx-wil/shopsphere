@@ -7,7 +7,7 @@ const ClientDefaultLayout = () => {
     <>
       <HeroHeaderSection />
       <FeaturesSection />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
       <FeaturedProducts />
     </>
   );
