@@ -48,6 +48,7 @@ const FeatureSectionDescription = () => {
         color={useColorModeValue("#1D252C", "#FAF8F7")}
         fontSize={"lg"}
         className="poppins-regular"
+        opacity={0.8}
         
       >
         At ShopSphere, we believe that every plant has a story, just like every
