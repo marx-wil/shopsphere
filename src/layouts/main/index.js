@@ -1,13 +1,12 @@
-import { Box, useColorMode } from "@chakra-ui/react"; // Chakra UI for styling and theming
-import { motion, AnimatePresence } from "framer-motion"; // Framer Motion for animations
-import NavigationBar from "../../components/navigationbar"; // Navigation bar component
-import FloatingColorMode from "../../components/floatingColorMode"; // Floating button to toggle theme
+import { Box, useColorMode } from "@chakra-ui/react";
+import { motion, AnimatePresence } from "framer-motion";
+import NavigationBar from "../../components/navigationbar";
+import FloatingColorMode from "../../components/floatingColorMode";
 import Footer from "../../components/footer";
 
-// Higher-order component to wrap pages with a default layout
 const Layout = (Component) => {
   const DefaultLayout = ({ ...props }) => {
-    const { colorMode } = useColorMode(); // Access the current theme mode (light or dark)
+    const { colorMode } = useColorMode();
 
     return (
       <AnimatePresence mode="wait">
@@ -15,24 +14,21 @@ const Layout = (Component) => {
         <motion.div
           key={colorMode} // Ensures re-animation when theme mode changes
           initial={{ opacity: 0, scale: 0.98 }} // Initial state: slightly faded and scaled down
-          animate={{ opacity: 1, scale: 1 }} // Animation: fade in and return to normal scale
+          animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 1.02 }} // Exit animation: slight scale-up and fade out
-          transition={{ duration: 0.4, ease: "easeInOut" }} // Smooth transition timing
-          style={{ minHeight: "100vh" }} // Ensures the animation covers the full viewport
+          transition={{ duration: 0.4, ease: "easeInOut" }}
+          style={{ minHeight: "100vh" }} 
         >
           <Box
-            bg={colorMode === "light" ? "gray.100" : "gray.900"} // Background color changes with theme
-            color={colorMode === "light" ? "black" : "white"} // Text color changes with theme
-            minH="100vh" // Ensures the layout covers the full viewport height
-            transition="background 0.4s ease-in-out, color 0.4s ease-in-out" // Smooth transition for color changes
+            bg={colorMode === "light" ? "gray.100" : "gray.900"}
+            color={colorMode === "light" ? "black" : "white"}
+            minH="100vh"
+            transition="background 0.4s ease-in-out, color 0.4s ease-in-out"
             overflow={"hidden"}
           >
-            <NavigationBar /> {/* Displays the navigation bar at the top */}
-            <Component {...props} />{" "}
-            {/* Renders the page component dynamically */}
-            {/* Correct comment positioning inside Text component */}
-            <Footer /> {/* Displays the footer at the bottom */}
-            <FloatingColorMode /> {/* Floating button to switch theme */}
+            <NavigationBar />
+            <Component {...props} /> <Footer />
+            <FloatingColorMode />
           </Box>
         </motion.div>
       </AnimatePresence>
